@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:700|Playfair+Display:900" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+        
+        <style>
+            #header{
+                height:100vh;
+                background-image: url("https://i.redd.it/oa1o8ju89wo01.jpg");
+                background-size: 100% 100%;
+            }
+            #about{
+                height:100vh;
+                /* background-image: url("https://www.walldevil.com/wallpapers/a81/sea-sand-sky-summer.jpg"); */
+                background-size: 100% 100%;
+            }
+            #skill{
+                height:100vh;
+                background-image: url("https://gratefulhearttherapy.org/wp-content/uploads/2017/04/bigstock-Cup-Of-Coffee-Newspaper-Man-72434449.jpg");
+                background-size: 100% 100%;
+            }
+            .form{
+                height:100vh;
+                /* background-image: url("http://cdn.desktopwallpapers4.me/wallpapers/photography/2560x1600/3/21759-coffee-and-newspaper-2560x1600-photography-wallpaper.jpg"); */
+                background-size: 100% 100%;
+            }
+            
+            .navbar-inverse{
+                background-color:rgba(0,0,0,0.2);
+                border-color: rgba(0,0,0,0.2);
+            }
+            .caption{
+                padding-top:30vh;
+                color: rgb(255, 255, 255);
+                
+            }
+            .welcome, .brand-tagline{
+
+                font-size:55px;
+                /* font-family: 'Fjalla One', sans-serif; */
+                /* font-style: italic; */
+            }
+            #about{
+                /* background:white; */
+                padding:50px;
+            }
+            .section-header{
+                font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;;
+                font-style: italic;
+            }
+            .header-underline{
+                text-align:center;
+                width:7%;
+                border-top:3px solid black;
+                margin-top:0px;
+            }
+            #footer{
+                background: #212529;
+            }
+            .btn{
+                border-radius:0px;
+                background: rgb(0, 0, 0);
+                border:1px solid #555;
+                color:#fff;
+                font-size:19px;
+            }
+            .qualification, #strengths, #aoi{
+                margin-top:25px;
+                font-size: 20px;
+            }
+            .form-input{
+                width:80%;
+                text-align: center;
+                padding:12px 15px;
+                margin-bottom:15px;
+                border-radius: 8px;
+            }
+            #location{
+                height:100vh;
+                background-image: url("https://www.globaldots.com/wordpress/wp-content/uploads/2016/02/cdn-nodes.jpg");
+                background-size:100% 100%;
+            }
+            #footer{
+                background: rgb(209, 209, 209);
+                height:60px;
+            }
+            .copyright{
+                padding:10px;
+                padding-top:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li ><a class="navbar-brand">ARVIND</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill" >Skill Set</a></li>
+                    <li><a href="#form">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        <div class="outer-container">
+            <section id="header">
+                <center><strong>
+                    <div class="caption">
+                        <h2 class="animated flipInX welcome">welcome</h2>
+                        <h1 class="animated flipInX container brand-tagline">IF YOU DONT SEE OPPORTUNITIES, THEN YOU CREATE THEM</h1>
+                    </div>
+
+                </strong></center>
+            </section>
+            <section id="about">
+                <center>
+                    <h2 class="section-header">ABOUT</h2>
+                    <hr class="header-underline">
+                        <div class="container">
+                            <button id="qualbtn" class="col-md-6 btn">Qualification</button>
+                            <button id="prebtn" class="col-md-6 btn">Personal Details</button>
+                        </div>
+                        <div class="container" id="qualification">
+                            <table class="table qualification">
+                                <tbody>
+                                        <tr>
+                                            <td class="col-md-8">SSLC</td>
+                                            <td class="col-md-4">81.1</td>
+                                        </tr>
+                                        <tr><td class="col-md-12" style="border:none;">Vidyaa Vikas</td><tr>
+                                        <tr>
+                                            <td class="col-md-8">HSLC</td>
+                                            <td class="col-md-4">76</td>
+                                        </tr>
+                                        <tr><td class="col-md-12" style="border:none;">AVB</td><tr>
+                                        <tr>
+                                            <td class="col-md-8">B.E - CSE</td>
+                                            <td class="col-md-4">65</td>
+                                        </tr>
+                                        <tr><td class="col-md-12" style="border:none;">Sri Ramakrishna Engineering College</td><tr>
+                                    </tbody>
+
+                            </table>
+                        </div>
+
+                        <div class="container" id="personal" style="display:none">
+                            <table class="table qualification">
+                                
+                                <tbody>
+                                        <tr>
+                                            <td class="col-md-6">Name</td>
+                                            <td class="col-md-6">Arvind</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="col-md-8">Fathers Name</td>
+                                            <td class="col-md-4">k.muralidharan</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="col-md-8">Address</td>
+                                            <td class="col-md-4">3/582,V.M.Thottam,K.Vadamaduari,Coimbatore</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-8">Date Of Birth</td>
+                                            <td class="col-md-4">06-04-1998</td>
+                                        </tr>
+                                    </tbody>
+                            </table>
+                        </div>
+                </center>
+            </section>
+            <section id="skill" style="padding:50px;">
+                    <center>
+                        <h2 class="section-header">Skill Set</h2>
+                        <hr class="header-underline">
+                            <div class="container">
+                                <button id="techbtn" class="col-md-4 btn">Technical Details</button>
+                                <button id="strengthbtn" class="col-md-4 btn">Strengths</button>
+                                <button id="aoibtn" class="col-md-4 btn">Area Of Interest</button>
+                            </div>
+                            <div class="container" id="technical">
+                                <table class="table qualification" style="color:#fff">
+                                    <tbody>
+                                            <tr>
+                                                <td class="col-md-4">Web Technologies</td>
+                                                <td class="col-md-8">HTML, CSS, Javascript,AngularJS,2,MongoDB</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-4">Programming languages</td>
+                                                <td class="col-md-8">C,C++ </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-8">Database management</td>
+                                                <td class="col-md-4">mySQL,</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-8">Operating System</td>
+                                                <td class="col-md-4">Windows, Linux</td>
+                                            </tr>
+                                        </tbody>
+                                </table>
+                            </div>
+                            <div class="container" id="strengths" style="color:#fff;display:none">
+                                <center>
+                                    <ul style="list-style:none;line-height:35px;">
+                                        <li>leadership qualities</li>    
+                                        <li>diligent and adaptable</li>
+                                        <li>initiative capability</li>
+                                    </ul>    
+                                </center>        
+                            </div>
+                            <div class="container" id="aoi" style="color:#fff;display:none">
+                                <center>
+                                    <ul style="list-style:none;line-height:35px;">
+                                        <li>Web Designing</li>    
+                                        <li>Artificial Intelligance</li>
+                                    </ul>    
+                                </center>   
+                            </div>
+                    </center>
+                </section>
+                <section id="form" class="form" style="padding:50px;">
+                    <center>
+                        <h2 class="section-header">Contact</h2>
+                        <hr class="header-underline">
+                        <h6>GIVE ME A COMMENT</h6>
+                        <div class="container">
+                            <form method="POST" action="/createnew" >
+                                <input class="form-input" name="name" placeholder="Name">
+                                <input class="form-input" name="email" placeholder="E-Mail Address">
+                                <input class="form-input" name="phonenumber" placeholder="Phone Number">
+                                <input class="form-input" name="comments" placeholder="Comments">
+                                <center><input type="submit" class="btn btn-info"></center>
+                            </form>
+                        </div>
+                    </center>
+                </section>
+                <section id="location" class="form" style="padding:50px;color:white;">
+                    <center>
+                        <h2 class="section-header" >Location</h2>
+                        <hr class="header-underline">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.149676764812!2d76.96350211490815!3d11.102220492100939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4254abad25855b06!2sSri+Ramakrishna+Engineering+College!5e0!3m2!1sen!2sin!4v1528891328326" width="1050" height="400" frameborder="1" style="border:0" allowfullscreen=""></iframe>
+                    </center></section>
+                <section id="footer">
+                    <div class="col-md-6 navbar-brand">ARVIND</div>
+                    <div class="col-md-6 copyright">Copyright 2018</div>
+                </section>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script>
+
+            $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                event.preventDefault();
+
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    window.location.hash = hash;
+                });
+                }
+            });
+            });
+
+            $('#qualbtn').click(function(){
+                $('#qualification').css('display','block');
+                $('#personal').css('display','none');
+            });
+            $('#prebtn').click(function(){
+                $('#qualification').css('display','none');
+                $('#personal').css('display','block');
+            });
+            $('#techbtn').click(function(){
+                $('#technical').css('display','block');
+                $('#strengths').css('display','none');
+                $('#aoi').css('display','none');
+            });
+            $('#strengthbtn').click(function(){
+                $('#technical').css('display','none');
+                $('#strengths').css('display','block');
+                $('#aoi').css('display','none');
+            });
+            $('#aoibtn').click(function(){
+                $('#technical').css('display','none');
+                $('#strengths').css('display','none');
+                $('#aoi').css('display','block');
+            });
+        </script>
+    </body>
+</html>
